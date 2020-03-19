@@ -1,0 +1,278 @@
+/*UX designer Portfolio*/
+body {
+  background-color: #fff;
+  font-family: dala floda;
+  font-size: 25px;
+  margin: 25px;
+}
+
+.main-nav {
+  display: block;
+  position: fixed;
+  top: 0;
+  background-color: #e7ebeb;
+  margin-left: -25px;
+  width: 100%;
+}
+
+ .kor {
+  display: inline;
+  margin-right: 25px;
+}
+
+a {
+  text-decoration: none;
+  color:#010006;
+  text-align: center;
+}
+
+.ear {
+  font-size: 25px;
+}
+.con {
+  display: flex;
+  flex-direction: row;
+  margin-top: 155px;
+}
+
+.face {
+  margin: 0px 25px;
+  background-color: #fff;
+
+}
+
+.nam {
+  padding-left: 24px;
+  margin-top: 18px;
+}
+.uaw {
+  width: 360px;
+  height: 400px;
+}
+
+
+.lin {
+  text-align: center;
+}
+
+.des{
+  margin-left: 375px;
+}
+
+.feature {
+display: flex;
+flex-direction: row;
+}
+
+.proDos {
+  margin: 0px 155px;
+}
+
+.col {
+  display: flex;
+  flex-direction: row;
+}
+
+.sly,
+.slt {
+margin-right: 35px;
+}
+
+.sli {
+  margin-left: 65px;
+}
+
+ .slo {
+  margin-left: 212px;
+}
+
+.myStory {
+  display: flex;
+  flex-direction: column;
+}
+
+footer {
+  text-align: center;
+}
+<---project1--->
+
+body {
+  background-color: inherit;
+}
+
+.arleen {
+  margin: 25px;
+}
+
+.intro {
+  display: flex;
+  flex-direction: row;
+  margin: 25px;
+}
+
+.findOne {
+  display: flex;
+  flex-direction: row;
+  margin: 25px;
+}
+
+.club {
+  display: flex;
+  flex-direction: column;
+  margin: 25px;
+}
+
+.lov {
+  max-width: 699px;
+  max-height: 307px;
+  margin-top: 150px;
+}
+
+.wsp {
+  max-width: 699px;
+  max-height: 98px;
+  margin-top: 125px;
+}
+
+.dis {
+  max-width: 699px;
+  max-height: 200px;
+  margin-top: 125px;
+}
+
+.red {
+  max-width: 699px;
+  max-height: 133px;
+  margin-top: 125px;
+}
+
+.hot {
+  max-width: 699px;
+  max-height: 291px;
+  margin-top: 125px;
+}
+
+.mess {
+  max-width: 699px;
+  max-height: 275px;
+  margin-top: 125px;
+}
+
+.jac {
+  max-width: 699px;
+  max-height: 237px;
+  margin-top: 125px;
+}
+
+.hon {
+  max-width: 699px;
+  max-height: 213px;
+  margin-top: 125px;
+}
+
+.cof {
+  max-width: 699px;
+  max-height: 264px;
+  margin-top: 125px;
+}
+<---project2--->
+body {
+  margin: inherit;
+}
+
+.lem {
+ display: block;
+ margin-left: auto;
+ margin-right: auto;
+ width: 50%;
+}
+
+.dea {
+  display: flex;
+  flex-direction: row;
+}
+
+.com {
+  margin-right: 55px;
+}
+
+.son {
+  display: flex;
+  flex-direction: row;
+}
+
+.aih {
+  margin-left: 300px;
+}
+
+.ske {
+  height: 500px;
+}
+.bah {
+  height: 305px;
+  width: 300px;
+}
+
+.lea {
+  margin-left: 475px;
+  margin-top: -5px;
+}
+.fra {
+  margin: 0px 95px;
+}
+
+.use {
+  display: flex;
+  flex-direction: row;
+}
+
+.chy {
+  color: #3ba38c;
+}
+<---project3--->
+
+.urm {
+margin-left: 130px;
+}
+
+.reb {
+  height: 350px;
+  width: 400px;
+  margin-left: -30px;
+}
+
+
+@media only screen and (max-width: 736px) {
+  .con{
+    flex-flow: column-reverse;
+    width: 100%;
+    margin: 50%;
+  }
+  .feature,
+  .col{
+    flex-flow: column;
+    width: 100%;
+  }
+  .des{
+    margin-left: 0px;
+  }
+  .sli {
+    margin-left: 0px;
+  }
+   .slo {
+    margin-left: 0px;
+  }
+  .proDos {
+    margin: 0px 0px;
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.con::after {
+  content: "";
+  clear: both;
+  display: table;
+}
